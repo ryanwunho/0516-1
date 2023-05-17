@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{
+	font-family: 'Noto Serif TC', serif;
+	}
+
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1   {
+    color: #6AACE7;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 172px;
+    height: auto;
+}
+nav {
+    text-align: center;
+    padding-top: 33px;
+}
+nav a:link  {
+    color: #A5E2F1;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #C3D3D3;
+}
+.container header #A01 {
+    background-image: url(%E5%9C%96%E7%89%87/%E3%80%90%E9%A6%96%E5%9C%96%E3%80%82.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    margin-bottom: 10px;
+}
+
+article h2 {
+    border-radius: 15px;
+    height: 30px;
+    background-color: #D50D10;
+    padding-left: 10px;
+    line-height: 30px;
+    display: inline;
+    padding-right: 8px;
+}
+
+article h3 {
+    background-color: #16BBDE;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 12px;
+    padding-left: 10px;
+    line-height: 1;
+    display: inline;
+}
+h4   {
+    background-color: #1ACBA7;
+    border-radius: 20px;
+    height: 26px;
+    color: #091217;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 2;
+    display: inline;
+}
+h5 {
+    background-color: #DAD264;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1;
+    text-align: center;
+    font-size: medium;
+    display: inline;
+}
+.container1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+}
+
+.container2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 .box1 {
+    margin-left: auto;
+}
+
+.container1 .box2  {
+    margin-right: auto;
+}
+.container2 .box3 {
+    margin-left: auto;
+}
+.container2 .box4 {
+    margin-right: auto;
+}
+.box5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    margin-top: 17px;
+}
